@@ -652,6 +652,10 @@ ul {
   border-radius: 4px;
 }
 
+.svg-btn-footer {
+  margin-left: 16px;
+}
+
 /* MODAL ELEMENT */
 .backdrop {
   position: fixed;
