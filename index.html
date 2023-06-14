@@ -440,13 +440,79 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    is-hidden
+
+    <div class="backdrop" data-modal>
       <div class="modal-element">
         <button class="button-closed" type="button" data-modal-close>
           <svg class="svg-modal" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        <form class="contact-form">
+          <p class="title-form">
+            Leave your contacts and we will call you back
+          </p>
+          <label>
+            <span class="tag-form">Name</span>
+            <input
+              class="contact-form-input"
+              type="text"
+              name="user_name"
+              required
+            />
+            <svg class="icon-form">
+              <use></use>
+            </svg>
+          </label>
+          <label>
+            <span class="tag-form">Phone</span>
+            <input
+              class="contact-form-input"
+              type="tel"
+              name="user_phone"
+              required
+            />
+            <svg class="icon-form">
+              <use></use>
+            </svg>
+          </label>
+          <label>
+            <span class="tag-form">Email</span>
+            <input
+              class="contact-form-input"
+              type="email"
+              name="user_mail"
+              required
+            />
+            <svg class="icon-form">
+              <use></use>
+            </svg>
+          </label>
+
+          <span class="tag-form">Comment</span>
+          <textarea
+            class="contact-form-textarea"
+            type="text"
+            name="user-texteria"
+            placeholder="Text input"
+          ></textarea>
+
+          <label class="agreement-form">
+            <input class="contact-form-checkbox" type="checkbox" />
+            <svg width="16" height="16">
+              <use></use>
+            </svg>
+            <p class="descrip-form tag-form">
+              I accept the terms and conditions of the
+              <a class="link-descr-form" href="#">Privacy Policy</a>
+            </p>
+          </label>
+
+          <div>
+            <button class="contact-form-button" type="submit">Send</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./modal.js"></script>
