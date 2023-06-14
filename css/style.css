@@ -621,7 +621,7 @@ ul {
 }
 
 .modal-element {
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -666,7 +666,6 @@ ul {
 
 /* FORM */
 .title-form {
-  margin-top: 48px;
   margin-bottom: 16px;
   width: 360px;
   font-style: normal;
